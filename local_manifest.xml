@@ -9,7 +9,7 @@
         <project path="vendor/realme/r5x" name="android_vendor_realme_r5x" revision="topaz" remote="org" />
     
         <!-- Nukes -->
-        <remove-project name="android_vendor_404" />
+        <remove-project name="android_vendor_aospa" />
 
         <!-- Replacements -->
         <project path="vendor/aospa" name="android_vendor_aospa" revision="topaz" remote="org" />
