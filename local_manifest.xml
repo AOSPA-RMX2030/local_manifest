@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="org" fetch="https://github.com/AOSPA-RMX2030" />
+
+        <!-- Trees -->
+        <project path="device/realme/r5x" name="android_device_realme_r5x" revision="topaz" remote="org" />	
+        <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" revision="topaz" remote="org" />
+        <project path="vendor/realme/r5x" name="android_vendor_realme_r5x" revision="topaz" remote="org" />
+    
+        <!-- Nukes -->
+        <remove-project name="android_vendor_404" />
+
+        <!-- Replacements -->
+        <project path="vendor/aospa" name="android_vendor_aospa" revision="topaz" remote="org" />
+
+</manifest>
