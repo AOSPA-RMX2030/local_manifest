@@ -14,9 +14,9 @@
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" revision="topaz-855" remote="org" />
 
         <!-- Nukes -->
-        <remove-project name="android_vendor_aospa" />
-
+ ​       <​remove-project​ ​name​=​"​AOSPA/android_vendor_aospa​"​ /> 
+ ​        
         <!-- Replacements -->
-        <project path="vendor/aospa" name="android_vendor_aospa" revision="topaz" remote="org" />
+        <​project​ ​path​=​"​vendor/aospa​"​ ​name​=​"​android_vendor_aospa​"​ ​remote​=​"​org"​ ​clone-depth​=​"​1​"​ />
 
 </manifest>
