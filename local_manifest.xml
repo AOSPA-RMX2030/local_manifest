@@ -15,6 +15,6 @@
 
         <!-- Nukes -->
  ​       <remove-project name="AOSPA/android_vendor_aospa" />
-        <project path="vendor/aospa" name="android_vendor_aospa" remote="aospa-xenxynon" clone-depth="1" />
+        <project path="vendor/aospa" name="android_vendor_aospa" remote="org" clone-depth="1" />
 
 </manifest>
