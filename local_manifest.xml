@@ -14,6 +14,7 @@
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" revision="topaz-855" remote="org" />
 
         <!-- Nukes -->
+        </project>
  ​       <remove-project name="AOSPA/android_vendor_aospa" />
         <project path="vendor/aospa" name="android_vendor_aospa" revision="topaz" remote="org" clone-depth="1" />
         <linkfile src="build.sh" dest="rom-build.sh" />
