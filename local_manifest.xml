@@ -4,24 +4,19 @@
   <remote name="org" fetch="https://github.com/AOSPA-RMX2030" />
 
   <!-- Trees -->
-  <project path="device/realme/r5x" name="android_device_realme_r5x" revision="staging/topaz" remote="org" />	
-  <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" revision="khareme" remote="org" />
-  <project path="vendor/realme/r5x" name="android_vendor_realme_r5x" revision="topaz" remote="org" />
+  <project path="device/realme/r5x" name="android_device_realme_r5x" revision="sapphire" remote="org" />	
+  <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" revision="sapphire" remote="org" />
+  <project path="vendor/realme/r5x" name="android_vendor_realme_r5x" revision="sapphire" remote="org" />
          
   <!-- Hals -->
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" revision="topaz-855" remote="org" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" revision="topaz-855" remote="org" />
-  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" revision="topaz-855" remote="org" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" revision="sapphire-855" remote="org" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" revision="sapphire-855" remote="org" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" revision="sapphire-855" remote="org" />
 
   <!-- Nukes -->
  ​ <remove-project name="AOSPA/android_vendor_aospa" />
-  <project path="vendor/aospa" name="android_vendor_aospa" revision="topaz" remote="org" >
+  <project path="vendor/aospa" name="android_vendor_aospa" revision="sapphire" remote="org" >
     <linkfile src="build.sh" dest="rom-build.sh" />
-  </project>
-  <remove-project name="AOSPA/android_build_soong" />
-  <project path="build/soong" name="android_build_soong" remote="org" revision="topaz" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
 </manifest>
