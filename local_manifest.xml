@@ -19,7 +19,7 @@
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <remove-project name="AOSPA/android_build_soong" />
-  <project path="build/soong" name="android_build_soong" remote="org" revision="topaz" >
+  <project path="build/soong" name="android_build_soong" remote="org" revision="sapphire" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
