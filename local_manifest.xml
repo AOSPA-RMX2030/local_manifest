@@ -2,10 +2,11 @@
 <manifest>
 
   <remote name="org" fetch="https://github.com/AOSPA-RMX2030" />
+  <remote name="404" fetch="https://github.com/p404-r5x" />
 
   <!-- Trees -->
   <project path="device/realme/r5x" name="android_device_realme_r5x" revision="staging/topaz" remote="org" />	
-  <project path="kernel/realme/r5x" name="kernel_msm-4.14" revision="staging/topaz" remote="org" />
+  <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" revision="tokui" remote="404" />
   <project path="vendor/realme/r5x" name="android_vendor_realme_r5x" revision="topaz" remote="org" />
          
   <!-- Hals -->
