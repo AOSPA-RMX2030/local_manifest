@@ -4,7 +4,7 @@
   <remote name="org" fetch="https://github.com/AOSPA-RMX2030" />
 
   <!-- Trees -->
-  <project path="device/realme/r5x" name="android_device_realme_r5x" revision="staging/topaz" remote="org" />	
+  <project path="device/realme/r5x" name="android_device_realme_r5x" revision="topaz" remote="org" />	
   <project path="device/realme/r5x-kernel" name="android_device_realme_r5x-kernel" revision="topaz" remote="org" />
   <project path="vendor/realme/r5x" name="android_vendor_realme_r5x" revision="topaz" remote="org" />
          
