@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Remotes -->
   <remote name="org" fetch="https://github.com/AOSPA-RMX2030" />
+  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
 
   <!-- Trees -->
   <project path="device/realme/r5x" name="android_device_realme_r5x" revision="topaz" remote="org" />	
@@ -23,5 +25,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
 </manifest>
