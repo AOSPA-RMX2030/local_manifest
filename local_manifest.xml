@@ -7,7 +7,7 @@
 
   <!-- Trees -->
   <project path="device/realme/r5x" name="android_device_realme_r5x" revision="topaz" remote="org" />	
-  <project path="device/realme/r5x-kernel" name="android_device_realme_r5x-kernel" revision="topaz" remote="org" />
+  <project path="kernel/msm-4.14" name="kernel_realme_r5x" revision="LA.UM.8.11" remote="org" />
   <project path="vendor/realme/r5x" name="android_vendor_realme_r5x" revision="topaz" remote="org" />
          
   <!-- Hals -->
@@ -16,7 +16,7 @@
   <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" revision="topaz-855" remote="org" />
 
   <!-- Nukes -->
- ​ <remove-project name="AOSPA/android_vendor_aospa" />
+  <remove-project name="AOSPA/android_vendor_aospa" />
   <project path="vendor/aospa" name="android_vendor_aospa" revision="topaz" remote="org" >
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
@@ -26,7 +26,5 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
 </manifest>
